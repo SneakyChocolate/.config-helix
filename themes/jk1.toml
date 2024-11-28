@@ -1,0 +1,14 @@
+
+inherits = "dark_plus"
+# inherits = "gruvbox"
+# inherits = "tokyonight"
+
+"ui.background"            = {bg = "#000000"}
+"ui.cursor.primary.normal" = {fg = "#000000", bg = "#ffffff"}
+"ui.cursor.primary.select" = {fg = "#000000", bg = "#8888ff"}
+"ui.cursor.primary.insert" = {fg = "#000000", bg = "#88ff88"}
+
+"ui.cursor.select"         = {fg = "#000000", bg = "#5555aa"}
+"ui.cursor.insert"         = {fg = "#000000", bg = "#55aa55"}
+"ui.cursor.normal"         = {fg = "#000000", bg = "#aaaaaa"}
+"diagnostic.unnecessary"   = {fg = "#555555"}

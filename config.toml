@@ -1,0 +1,34 @@
+# theme = "dark_plus"
+# theme = "mytheme"
+theme = "jk1"
+
+[editor]
+line-number = "relative"
+mouse = false
+bufferline = "always"
+auto-format = false
+true-color = true
+auto-info = true
+color-modes = true
+# cursorline = true
+
+[editor.cursor-shape]
+# insert = "bar"
+# normal = "block"
+# select = "underline"
+
+[editor.indent-guides]
+render = true
+
+[editor.whitespace.render]
+newline = "none"
+
+[editor.whitespace.characters]
+newline = "↓"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal.g]
+o = "jump_backward"
+O = "jump_forward"

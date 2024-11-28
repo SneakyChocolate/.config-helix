@@ -1,0 +1,22 @@
+# inherits = "dark_plus"
+inherits = "zed_onelight"
+"ui.background"            = {}
+"ui.cursorline.primary"    = {bg = "#000000"}
+
+"ui.cursor.primary.normal" = {fg = "#ffffff", bg = "#000000"}
+"ui.cursor.primary.select" = {fg = "#ffffff", bg = "#000099"}
+"ui.cursor.primary.insert" = {fg = "#ffffff", bg = "#009900"}
+
+"ui.selection"             = {bg = "#dddddd"}
+"ui.selection.primary"     = {bg = "#cccccc"}
+
+"ui.cursor.select"         = {fg = "#ffffff", bg = "#0000ff"}
+"ui.cursor.insert"         = {fg = "#ffffff", bg = "#00ff00"}
+"ui.cursor.normal"         = {fg = "#ffffff", bg = "#cccccc"}
+"ui.bufferline.active"     = {bg = "#00ff00"}
+"ui.statusline"            = {bg = "#eeddff"}
+"ui.bufferline.background" = {bg = "#dddddd"}
+"ui.virtual.indent-guide"  = {fg = "#999999"}
+"diagnostic.unnecessary"   = {modifiers = ["italic", "underlined"]}
+"type"                     = {fg = "#cc4444"}
+"variable.other.member"    = {fg = "#aaaa44"}
