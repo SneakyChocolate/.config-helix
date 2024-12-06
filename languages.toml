@@ -14,3 +14,8 @@ indent = { tab-width = 4, unit = "\t" }
 [[language]]
 name = "rust"
 indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "bash"
+file-types = ["sh"]
+indent = { tab-width = 4, unit = "\t" }
