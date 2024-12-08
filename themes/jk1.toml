@@ -10,7 +10,10 @@ inherits = "gruvbox"
 "ui.cursor.primary.select" = {fg = "#000000", bg = "#8888ff"}
 "ui.cursor.primary.insert" = {fg = "#000000", bg = "#88ff88"}
 
-"ui.cursor.select"         = {fg = "#000000", bg = "#5555aa"}
-"ui.cursor.insert"         = {fg = "#000000", bg = "#55aa55"}
-"ui.cursor.normal"         = {fg = "#000000", bg = "#aaaaaa"}
-"diagnostic.unnecessary"   = {fg = "#555555"}
+"ui.cursor.select"       = {fg = "#000000", bg = "#5555aa"}
+"ui.cursor.insert"       = {fg = "#000000", bg = "#55aa55"}
+"ui.cursor.normal"       = {fg = "#000000", bg = "#aaaaaa"}
+"diagnostic.unnecessary" = {fg = "#555555"}
+
+"ui.selection"         = {bg = "#333355"}
+"ui.selection.primary" = {bg = "#333399"}
