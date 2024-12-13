@@ -16,4 +16,4 @@ inherits = "gruvbox"
 "diagnostic.unnecessary" = {fg = "#555555"}
 
 "ui.selection"         = {bg = "#333355"}
-"ui.selection.primary" = {bg = "#333399"}
+"ui.selection.primary" = {bg = "#333377"}
