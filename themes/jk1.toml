@@ -1,9 +1,9 @@
 
-# inherits = "dark_plus"
+inherits = "dark_plus"
 # inherits = "everforest_dark"
 # inherits = "tokyonight"
 # inherits = "bogster"
-inherits = "gruvbox"
+# inherits = "gruvbox"
 
 # "ui.background"            = {bg = "#333333"}
 "ui.cursor.primary.normal" = {fg = "#000000", bg = "#ffffff"}
