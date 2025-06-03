@@ -23,12 +23,6 @@ color-modes = true
 [editor.indent-guides]
 render = true
 
-[editor.whitespace.render]
-newline = "none"
-
-[editor.whitespace.characters]
-newline = "↓"
-
 [editor.file-picker]
 hidden = false
 

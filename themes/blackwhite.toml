@@ -1,3 +1,4 @@
+inherits = "dark_plus"
 # Dark Void theme for Helix
 # Author: zoedsoupe <zoey.spessanha@zeetech.io>
 # License: MIT
@@ -33,7 +34,7 @@
 "ui.text.inactive" = { fg = "comment" }
 "ui.virtual.ruler" = { bg = "visual" }
 "ui.virtual.whitespace" = { fg = "line_nr" }
-"ui.virtual.indent-guide" = { fg = "line_nr" }
+"ui.virtual.indent-guide" = { fg = "#666666" }
 "ui.menu" = { fg = "pmenu_fg", bg = "pmenu_bg" }
 "ui.menu.selected" = { fg = "bg", bg = "pmenu_sel_bg", modifiers = ["bold"] }
 "ui.menu.scroll" = { fg = "pmenu_sel_bg", bg = "pmenu_bg" }
@@ -118,14 +119,14 @@
 fg = "#c0c0c0"
 bg = "#1c1c1c"
 cursor = "#bdfe58"
-line_nr = "#404040"
+line_nr = "#ffffff"
 visual = "#303030"
-comment = "#688868"
+comment = "#888888"
 string = "#d1d1d1"
 func = "#e1e1e1"
-kw = "#f1f1f1"
-identifier = "#b1b1b1"
-type = "#a1a1a1"
+kw = "#ffffff"
+identifier = "#ffffff"
+type = "#ffffff"
 search_highlight = "#1bfd9c"
 operator = "#1bfd9c"
 bracket = "#e6e6e6"
@@ -139,7 +140,7 @@ error = "#dea6a0"
 warning = "#d6efd8"
 hint = "#bedc74"
 info = "#7fa1c3"
-pmenu_bg = "#1c1c1c"
+pmenu_bg = "#3c3c3c"
 pmenu_sel_bg = "#1bfd9c"
 pmenu_fg = "#c0c0c0"
 eob = "#3c3c3c"
