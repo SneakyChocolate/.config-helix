@@ -1,6 +1,9 @@
 # theme = "dark_plus"
 # theme = "mytheme"
 theme = "jk1"
+# theme = "blackwhite"
+# theme = "cyan_light"
+# theme = "dracula"
 
 [editor]
 line-number = "relative"
