@@ -1,50 +1,47 @@
-inherits = "dark_plus"
-# Dark Void theme for Helix
-# Author: zoedsoupe <zoey.spessanha@zeetech.io>
-# License: MIT
-# Based on the Dark Void Neovim theme
+inherits = "gruvbox"
 
 # UI
 "ui.background" = { bg = "bg" }
-"ui.background.separator" = { fg = "border" }
-"ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.insert" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.select" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.match" = { fg = "search_highlight", modifiers = ["underlined"] }
-"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.primary.normal" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.primary.insert" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.cursor.primary.select" = { fg = "cursor", modifiers = ["reversed"] }
-"ui.debug.breakpoint" = { fg = "error" }
-"ui.debug.active" = { fg = "cursor" }
+# # "ui.background" = {}
+# "ui.background.separator" = { fg = "border" }
+# "ui.cursor" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.insert" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.select" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.match" = { fg = "search_highlight", modifiers = ["underlined"] }
+# "ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.primary.normal" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.primary.insert" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.cursor.primary.select" = { fg = "cursor", modifiers = ["reversed"] }
+# "ui.debug.breakpoint" = { fg = "error" }
+# "ui.debug.active" = { fg = "cursor" }
 "ui.gutter" = { bg = "bg" }
 "ui.gutter.selected" = { bg = "bg", fg = "cursor" }
-"ui.linenr" = { fg = "line_nr" }
+# "ui.linenr" = { fg = "line_nr" }
 "ui.linenr.selected" = { fg = "cursor", bg = "bg" }
-"ui.statusline" = { fg = "fg", bg = "bg" }
-"ui.statusline.inactive" = { fg = "comment", bg = "bg" }
-"ui.statusline.normal" = { fg = "fg", bg = "bg" }
-"ui.statusline.insert" = { fg = "bg", bg = "cursor" }
-"ui.statusline.select" = { fg = "bg", bg = "search_highlight" }
-"ui.popup" = { fg = "fg", bg = "pmenu_bg" }
-"ui.window" = { fg = "border" }
-"ui.help" = { fg = "fg", bg = "bg" }
-"ui.text" = { fg = "fg" }
-"ui.text.focus" = { fg = "cursor", bg = "bg", modifiers = ["bold"] }
-"ui.text.inactive" = { fg = "comment" }
-"ui.virtual.ruler" = { bg = "visual" }
-"ui.virtual.whitespace" = { fg = "line_nr" }
-"ui.virtual.indent-guide" = { fg = "#666666" }
-"ui.menu" = { fg = "pmenu_fg", bg = "pmenu_bg" }
-"ui.menu.selected" = { fg = "bg", bg = "pmenu_sel_bg", modifiers = ["bold"] }
-"ui.menu.scroll" = { fg = "pmenu_sel_bg", bg = "pmenu_bg" }
-"ui.selection" = { bg = "visual" }
-"ui.selection.primary" = { bg = "visual", modifiers = ["bold"] }
-"ui.highlight" = { bg = "visual", fg = "fg" }
-"ui.cursorline.primary" = { bg = "visual" }
-"ui.cursorline.secondary" = { bg = "visual" }
-"ui.cursorcolumn.primary" = { bg = "visual" }
-"ui.cursorcolumn.secondary" = { bg = "visual" }
+# "ui.statusline" = { fg = "fg", bg = "bg" }
+# "ui.statusline.inactive" = { fg = "comment", bg = "bg" }
+# "ui.statusline.normal" = { fg = "fg", bg = "bg" }
+# "ui.statusline.insert" = { fg = "bg", bg = "cursor" }
+# "ui.statusline.select" = { fg = "bg", bg = "search_highlight" }
+# "ui.popup" = { fg = "fg", bg = "pmenu_bg" }
+# "ui.window" = { fg = "border" }
+# "ui.help" = { fg = "fg", bg = "bg" }
+# "ui.text" = { fg = "fg" }
+# "ui.text.focus" = { fg = "cursor", bg = "bg", modifiers = ["bold"] }
+# "ui.text.inactive" = { fg = "comment" }
+# "ui.virtual.ruler" = { bg = "visual" }
+# "ui.virtual.whitespace" = { fg = "line_nr" }
+# "ui.virtual.indent-guide" = { fg = "#444444" }
+# "ui.menu" = { fg = "pmenu_fg", bg = "pmenu_bg" }
+# "ui.menu.selected" = { fg = "bg", bg = "pmenu_sel_bg", modifiers = ["bold"] }
+# "ui.menu.scroll" = { fg = "pmenu_sel_bg", bg = "pmenu_bg" }
+# "ui.selection" = { bg = "visual" }
+# "ui.selection.primary" = { bg = "visual", modifiers = ["bold"] }
+# "ui.highlight" = { bg = "visual", fg = "fg" }
+# "ui.cursorline.primary" = { bg = "visual" }
+# "ui.cursorline.secondary" = { bg = "visual" }
+# "ui.cursorcolumn.primary" = { bg = "visual" }
+# "ui.cursorcolumn.secondary" = { bg = "visual" }
 
 # Syntax highlighting
 "attribute" = "preprocessor"
@@ -89,14 +86,14 @@ inherits = "dark_plus"
 "special" = { fg = "kw", modifiers = ["bold"] }
 
 # Markup
-"markup.heading" = { fg = "kw", modifiers = ["bold"] }
-"markup.list" = "kw"
-"markup.bold" = { fg = "fg", modifiers = ["bold"] }
-"markup.italic" = { fg = "fg", modifiers = ["italic"] }
-"markup.link.url" = "string"
-"markup.link.text" = "identifier"
-"markup.quote" = { fg = "comment", modifiers = ["italic"] }
-"markup.raw" = "string"
+# "markup.heading" = { fg = "kw", modifiers = ["bold"] }
+# "markup.list" = "kw"
+# "markup.bold" = { fg = "fg", modifiers = ["bold"] }
+# "markup.italic" = { fg = "fg", modifiers = ["italic"] }
+# "markup.link.url" = "string"
+# "markup.link.text" = "identifier"
+# "markup.quote" = { fg = "comment", modifiers = ["italic"] }
+# "markup.raw" = "string"
 
 # Diff
 "diff.plus" = "added"
@@ -104,16 +101,15 @@ inherits = "dark_plus"
 "diff.delta" = "changed"
 
 # Diagnostics
-"diagnostic" = { modifiers = ["underlined"] }
-"diagnostic.hint" = { fg = "hint", modifiers = ["underlined"] }
-"diagnostic.info" = { fg = "info", modifiers = ["underlined"] }
-"diagnostic.warning" = { fg = "warning", modifiers = ["underlined"] }
-"diagnostic.error" = { fg = "error", modifiers = ["underlined"] }
+# "diagnostic" = { modifiers = ["underlined"] }
+# "diagnostic.hint" = { fg = "hint", modifiers = ["underlined"] }
+# "diagnostic.info" = { fg = "info", modifiers = ["underlined"] }
+# "diagnostic.warning" = { fg = "warning", modifiers = ["underlined"] }
+# "diagnostic.error" = { fg = "error", modifiers = ["underlined"] }
 
-# Elixir-specific (including atoms)
-"constant.character.escape" = "string"
-"constant.character" = "string"
-"symbol" = { fg = "kw", modifiers = ["italic"] }  # For Elixir atoms
+# "constant.character.escape" = "string"
+# "constant.character" = "string"
+# "symbol" = { fg = "kw", modifiers = ["italic"] }  # For Elixir atoms
 
 [palette]
 fg = "#c0c0c0"
@@ -128,7 +124,7 @@ kw = "#ffffff"
 identifier = "#ffffff"
 type = "#ffffff"
 search_highlight = "#1bfd9c"
-operator = "#1bfd9c"
+operator = "#ffaa00"
 bracket = "#e6e6e6"
 preprocessor = "#4b8902"
 bool = "#66b2b2"
