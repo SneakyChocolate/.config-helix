@@ -1,5 +1,7 @@
 # dark_plus variant
 
+inherits = "jk1"
+
 # SYNTAX
 "attribute"                 = "variable"
 "comment"                   = "dark_green"
@@ -132,3 +134,5 @@ cursor = "#a6a6a6"
 widget = "#252526"
 borders = "#323232"
 operator = "#ff0000"
+
+
