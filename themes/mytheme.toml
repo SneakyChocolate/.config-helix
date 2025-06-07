@@ -50,7 +50,8 @@ inherits = "jk1"
 "markup.raw"           = "orange"
 
 # UI
-"ui.background"              = { fg = "light_gray", bg = "dark_gray2" }
+"ui.background"              = { fg = "light_gray", bg = "#000000" }
+# "ui.background"              = { fg = "light_gray", bg = "dark_gray2" }
 "ui.window"                  = { bg = "widget" }
 "ui.popup"                   = { fg = "text", bg = "widget" }
 "ui.help"                    = { fg = "text", bg = "widget" }
@@ -133,6 +134,6 @@ text = "#d4d4d4"
 cursor = "#a6a6a6"
 widget = "#252526"
 borders = "#323232"
-operator = "#ff0000"
+operator = "#ffffff"
 
 
