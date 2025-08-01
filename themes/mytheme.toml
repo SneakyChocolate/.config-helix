@@ -77,10 +77,12 @@ inherits = "jk1"
 "ui.text.focus"              = { fg = "white" }
 "ui.text.directory"          = { fg = "blue2" }
 "ui.text.inactive"           = { fg = "dark_gray" }
-"ui.virtual.whitespace"      = { fg = "#3e3e3d" }
+"ui.virtual.whitespace"      = { fg = "dark_purple" }
+# "ui.virtual.whitespace"      = { fg = "#3e3e3d" }
 "ui.virtual.wrap"            = { fg = "#3e3e3d" }
 "ui.virtual.ruler"           = { bg = "borders" }
-"ui.virtual.indent-guide"    = { fg = "dark_gray4" }
+"ui.virtual.indent-guide"    = { fg = "dark_purple" }
+# "ui.virtual.indent-guide"    = { fg = "dark_gray4" }
 "ui.virtual.inlay-hint"      = { fg = "dark_gray5"}
 "ui.virtual.jump-label"      = { fg = "yellow", modifiers = ["bold"] }
 "ui.highlight.frameline"     = { bg = "#4b4b18" }
@@ -122,6 +124,7 @@ dark_blue = "#264f78"
 dark_blue2 = "#094771"
 red = "#ff1212"
 orange_red = "#f14c4c"
+dark_purple = "#663388"
 
 type = "#4EC9B0"
 special = "#C586C0"
