@@ -4,12 +4,12 @@ inherits = "jk1"
 
 # SYNTAX
 "attribute"                 = "variable"
-"comment"                   = "dark_green"
+"comment"                   = "#00aa00"
 "constant"                  = "variable"
 "constant.builtin"          = "variable"
 "constant.character"        = "variable"
 "constant.character.escape" = "variable"
-"constant.numeric"          = "light_blue"
+"constant.numeric"          = "#ffff00"
 "constructor"               = "variable"
 "diff.delta"                = "variable"
 "diff.minus"                = "variable"
@@ -26,7 +26,7 @@ inherits = "jk1"
 "operator"                  = "operator"
 "punctuation"               = "operator"
 "punctuation.delimiter"     = "operator"
-"special"                   = "operator"
+"special"                   = "variable"
 "string"                    = "variable"
 "string.regexp"             = "variable"
 "tag"                       = "variable"
@@ -66,12 +66,12 @@ inherits = "jk1"
 "ui.linenr"                  = { fg = "dark_gray" }
 "ui.linenr.selected"         = { fg = "light_gray2" }
 "ui.cursorline.primary"      = { bg = "dark_gray3" }
-"ui.statusline"              = { fg = "black", bg = "red" }
+"ui.statusline"              = { fg = "white", bg = "#aa0000" }
 "ui.statusline.inactive"     = { fg = "white", bg = "widget" }
 "ui.statusline.insert"       = { fg = "white", bg = "yellow" }
 "ui.statusline.select"       = { fg = "white", bg = "magenta" }
 "ui.bufferline"              = { fg = "text", bg = "widget" }
-"ui.bufferline.active"       = { fg = "black", bg = "red" }
+"ui.bufferline.active"       = { fg = "black", bg = "#aa0000" }
 "ui.bufferline.background"   = { bg = "background" }
 "ui.text"                    = { fg = "text" }
 "ui.text.focus"              = { fg = "white" }
@@ -83,7 +83,7 @@ inherits = "jk1"
 "ui.virtual.ruler"           = { bg = "borders" }
 # "ui.virtual.indent-guide"    = { fg = "dark_purple" }
 "ui.virtual.indent-guide"    = { fg = "dark_gray4" }
-"ui.virtual.inlay-hint"      = { fg = "#aa0000"}
+"ui.virtual.inlay-hint"      = { fg = "#aaaa00"}
 "ui.virtual.jump-label"      = { fg = "yellow", modifiers = ["bold"] }
 "ui.highlight.frameline"     = { bg = "#4b4b18" }
 "ui.debug.active"            = { fg = "#ffcc00" }
@@ -93,7 +93,7 @@ inherits = "jk1"
 "warning"                    = { fg = "gold2" }
 "error"                      = { fg = "red" }
 "info"                       = { fg = "grey" }
-"hint"                       = { fg = "#aa0000" }
+"hint"                       = { fg = "#aaaa00" }
 "diagnostic.error".underline = { color = "red", style = "curl" }
 "diagnostic".underline       = { color = "gold", style = "curl" }
 "diagnostic.unnecessary"     = { modifiers = ["dim"] }
@@ -122,7 +122,7 @@ blue4 = "#1b81a8"
 light_blue = "#75beff"
 dark_blue = "#264f78"
 dark_blue2 = "#094771"
-red = "#ff1212"
+red = "#ff7777"
 orange_red = "#f14c4c"
 dark_purple = "#663388"
 

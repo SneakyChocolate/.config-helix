@@ -1,0 +1,6 @@
+**target/
+**debug/
+**/db/
+**/**_old/**
+**/**-old/**
+Cargo.lock
