@@ -1,12 +1,13 @@
 # theme = "dark_plus"
-# theme = "mytheme"
-theme = "simple"
+theme = "mytheme"
+# theme = "simple"
 # theme = "jk1"
 # theme = "blackwhite"
 # theme = "cyan_light"
 # theme = "dracula"
 
 [editor]
+soft-wrap.enable = true
 line-number = "relative"
 mouse = false
 bufferline = "always"
@@ -33,3 +34,6 @@ hidden = false
 [keys.normal.g]
 o = "jump_backward"
 O = "jump_forward"
+
+[editor.lsp]
+display-inlay-hints = true
