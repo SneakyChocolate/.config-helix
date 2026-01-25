@@ -8,6 +8,9 @@ inherits = "gruvbox"
 "ui.cursor.match" = { bg = "bg2" }
 "ui.cursorline" = { bg = "bg1" }
 
+"ui.selection"               = { bg = "#eeeeee" }
+"ui.selection.primary"       = { bg = "#ddddff" }
+
 [palette]
 bg0 = "#ffffff" # main background
 bg1 = "#ebdbb2"
